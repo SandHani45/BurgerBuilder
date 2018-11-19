@@ -13,7 +13,6 @@ const Burger = (props) =>{
     if(tranferIngredients.length === 0){
         tranferIngredients = <p>Please add ingridient</p>
     }
-    console.log(tranferIngredients)
     return(
         <div className={classNames.Burger}>
             <BurgerIngredint type="bread-top" />

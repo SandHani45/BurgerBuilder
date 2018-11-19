@@ -1,9 +1,10 @@
 import React from "react";
 import Aux from '../../hoc/Aux';
 import classNames from './Layout.css';
+import SearchBar from '../Navigation/SearchBar';
 const Layout = (props) =>(
     <Aux>
-        <div>Header Toolbar </div>
+        <SearchBar />
         <main className={classNames.Contant}>
             {props.children}
         </main> 
